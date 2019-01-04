@@ -1,0 +1,4 @@
+Change:
+- u (edit to you ssh admin account (admin))
+- pas (edit to your ssh admin account's password)
+- hosty (add IP of yours unifi ap)
