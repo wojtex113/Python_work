@@ -2,7 +2,7 @@ import paramiko
 
 p=22
 u='admin'
-pas='c37s258'
+pas='password'
 wykonano=0
 
 komendy_sprawdzenie=[
