@@ -1,8 +1,8 @@
 import paramiko
 
 p=22
-u='admin'
-pas='password'
+u='ssh_unifi_ap_login'
+pas='ssh_unifi_ap_password'
 wykonano=0
 
 komendy_sprawdzenie=[
@@ -17,23 +17,8 @@ komendy_czyszczenie=[
 ]
 
 hosty=[
-'172.4.1.211',
-'172.4.1.212',
-'172.4.1.213',
-'172.4.1.215',
-'172.4.1.216',
-'172.4.1.229',
-'172.4.1.230',
-'172.4.1.231',
-'172.4.1.232',
-'172.4.1.233',
-'172.4.1.234',
-'172.4.1.236',
-'172.4.1.237',
-'172.4.1.238',
-'172.4.1.239',
-'172.4.1.240',
-'172.4.1.241'
+'ip_unifi_ap',
+'ip_unifi_ap'
 ]
 
 for host in hosty:
